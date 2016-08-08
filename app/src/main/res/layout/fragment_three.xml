@@ -1,0 +1,229 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin"
+            android:layout_marginTop="@dimen/card_margin">
+
+
+
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/quali"
+                    android:text="Qualification"
+                    />
+
+
+                <TextView
+                    android:id="@+id/qualification"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/basc_gradu"
+                    android:text="Basic Graduation"
+                    />
+
+
+                <TextView
+                    android:id="@+id/basic_graduation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/basc_spec"
+                    android:text="Basic Specialize"
+                    />
+
+
+                <TextView
+                    android:id="@+id/basic_specializ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/basc_univ"
+                    android:text="Basic University"
+                    />
+
+
+                <TextView
+                    android:id="@+id/basic_university"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/basc_yer"
+                    android:text="Basic Year"
+                    />
+
+
+                <TextView
+                    android:id="@+id/basic_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/pst_gradu"
+                    android:text="Post Graduation"
+                    />
+
+
+                <TextView
+                    android:id="@+id/post_graduation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/pst_spec"
+                    android:text="Post Specialize"
+                    />
+
+
+                <TextView
+                    android:id="@+id/post_specializ"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/post_yer"
+                    android:text="Post Year"
+                    />
+
+
+                <TextView
+                    android:id="@+id/post_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/dilpo_certi"
+                    android:text="Diploma Certificate"
+                    />
+
+
+                <TextView
+                    android:id="@+id/diploma_certificate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

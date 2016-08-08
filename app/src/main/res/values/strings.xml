@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Clock Soft</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="film_genres">Dashboard</string>
+    <string name="website">https://en.wikipedia.org/wiki/Film</string>
+    <string name="date">22 Oct 2015</string>
+    <string name="selected_item">Selected item</string>
+    <string name="logout">logout</string>
+
+    <string-array name="erp">
+        <item>HR Management</item>
+    </string-array>
+
+    <string-array name="hrm">
+        <item>Mark Attandence</item>
+        <item>Attendance</item>
+        <!--<item>Apply Leave</item>-->
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="Api_Key">AIzaSyCHSELpOBm-v7Jcc9zvhw-MdX6iYQaCGhg</string>-->
+    <string name="Api_Key">AIzaSyAjms_MaPtRB1kh-iKjRBXgE6UsfjzbOD4</string>
+
+    <string name="Api_Key_Release">AIzaSyCVYZZdksWNSYErkilyxY2HOtL14w7KhCo</string>
+
+</resources>

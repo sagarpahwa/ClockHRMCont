@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.clockhr.ApplyLeaveForm">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:onClick="setFrom"
+                android:layout_centerVertical="true"
+                android:id="@+id/fromdate"
+                android:layout_marginTop="8dp"
+                android:padding="16dp"
+                android:text="Start"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:paddingRight="8dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_event_note_black_24dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:onClick="setTo"
+                android:layout_centerVertical="true"
+                android:id="@+id/ToDate"
+                android:layout_marginTop="8dp"
+                android:padding="16dp"
+                android:text="End"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:paddingRight="8dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_event_note_black_24dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/remainingLeave"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:padding="16dp"
+            android:text="Remaining"
+            android:background="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"/>
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/daysCount"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:text="Days Count"
+            android:background="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/reason"
+        android:gravity="top"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:hint="Reason"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <CheckBox
+        android:onClick="isHalf"
+        android:background="@color/white"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Is Half Day"
+        android:id="@+id/isHalfDay" />
+    <Button
+        android:layout_marginTop="8dp"
+        android:padding="16dp"
+        android:text="Apply"
+        android:onClick="applyAsync"
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

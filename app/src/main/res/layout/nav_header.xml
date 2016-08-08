@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/navigation_header"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primary"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profilepicnewprofile"
+            android:layout_width="60dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/default_avatar"
+            android:layout_height="60dp">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <!--<ImageView
+
+            android:background="@color/primary_dark"
+            android:id="@+id/filmIcon"
+            android:layout_width="@dimen/header_img_size"
+            android:layout_height="@dimen/header_img_size"
+            android:src="@drawable/default_avatar"/>
+-->
+       <!-- <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|end"
+            android:layout_weight="1"
+            android:gravity="right|end"
+            android:paddingTop="@dimen/layout_padding_default"
+            android:text="@string/date"
+            android:textColor="@color/white"
+            android:textSize="@dimen/header_font_size"/>-->
+
+    </LinearLayout>
+
+
+    <TextView
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:id="@+id/userdetails"
+        android:background="@color/primarytrslucent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|start"
+        android:paddingLeft="@dimen/layout_padding_default"
+        android:text="userdertails"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="@dimen/header_font_size"/>
+
+</LinearLayout>

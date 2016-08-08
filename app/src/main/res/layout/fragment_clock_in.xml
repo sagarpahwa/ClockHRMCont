@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffffff"
+    tools:context="com.clockhr.fragment.ClockInFragment">
+    <fragment
+        android:layout_weight="1"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp" />
+
+
+    <com.clockhr.DigitalClock
+        android:layout_margin="4dp"
+        android:id="@+id/digitalClock1"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="DigitalClock" />
+    <TextView
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/datecurrent"
+        android:gravity="center_horizontal"
+        android:text="Date"/>
+    <TextView
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="lksdvlkbvlkdsvcd"
+        android:id="@+id/address"/>
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Punch In"
+        android:id="@+id/punchInButton"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@drawable/round_corner1"
+        />
+    <Button
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="gone"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Punch Out"
+        android:id="@+id/punchOutButton"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@drawable/round_corner2"
+        />
+
+
+</LinearLayout>

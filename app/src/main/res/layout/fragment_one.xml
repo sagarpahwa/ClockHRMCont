@@ -1,0 +1,259 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".fragment.HomeFragment">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:layout_marginLeft="@dimen/card_margin"
+            android:layout_marginRight="@dimen/card_margin"
+            android:layout_marginTop="@dimen/card_margin">
+
+            <LinearLayout
+                style="@style/Widget.CardContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="General Info"-->
+                <!--android:textAppearance="@style/TextAppearance.AppCompat.Title" />-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/nme"
+                    android:text="Name"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/emp_num"
+                    android:text="Employee Number"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"/>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/pos"
+                    android:text="Position"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_position"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/dept"
+                    android:text="Department"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_department"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/join_dte"
+                    android:text="Joining Date"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_joining_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/gen"
+                    android:text="Gender"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/contac"
+                    android:text="Contact"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_contact"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/eml_id"
+                    android:text="Email Id"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_email_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/repo_mngr"
+                    android:text="Reporting Manager"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_reporting_manager"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/loc"
+                    android:text="Location"
+                    />
+
+
+                <TextView
+                    android:id="@+id/Emp_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="haii"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/primary" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
